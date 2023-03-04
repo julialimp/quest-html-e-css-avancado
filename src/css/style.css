@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background: url('../images/bg-desktop.svg') no-repeat var(--primary-medium);
+    background-size: cover;
+    color: #fff;
+    padding: 52px 70px;
+    display: grid;
+    grid-template-areas: "header header"
+                         "container container"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+}
+
+.header {
+    grid-area: header;
+    min-height: 75px;
+}
+
+.header img {
+    width: 213px;
+}
+
+.container {
+    grid-area: container;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container .mockups {
+    /* max-width: 715px; */
+}
+
+.container .mockups img {
+    width: 100%;
+}
+
+.container .description {
+    padding: 45px 80px;
+    max-width: 800px;
+}
+
+.container .description h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container .description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 26px 10px 26px 0;
+    line-height: 28px;
+}
+
+.container .description button {
+    border-radius: 40px;
+    padding: 10px 30px;
+    width: 200px;
+    height: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--primary-medium);
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container .description button:hover {
+    background-color: var(--primary-soft);
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+.footer {
+    grid-area: footer;
+    padding-right: 80px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.footer i {
+    width: 36px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.footer i:hover {
+    color: var(--primary-soft);
+    border: 1px solid var(--primary-soft);
+    transition: .3s ease-in-out;
+}
+
+
+
