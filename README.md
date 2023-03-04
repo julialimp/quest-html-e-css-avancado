@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL - Repository](https://github.com/julialimp/quest-html-e-css-avancado)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://julialimp.github.io/quest-html-e-css-avancado/)
 
 ## My process
 
