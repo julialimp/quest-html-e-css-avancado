@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com) - repositorio
+- Solution URL: [Add solution URL here](https://github.com/julialimp/quest-html-e-css-avancado)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com) - github pages
 
 ## My process
