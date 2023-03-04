@@ -64,7 +64,7 @@ I'm looking forward to practicing some more HTML and CSS properties so I can mas
 ## Author
 
 - Linkedin - [Juia Limp](https://www.linkedin.com/in/julia-limp-de-almeida-675953121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZJi4VgNnTlSIG5FKPrpXAg%3D%3D)
-- Instagram - [@julialimp](https://www.instagram/julialimp)
+- Instagram - [@julialimp](https://www.instagram.com/julialimp)
 - GitHub - [@julialimp](https://github.com/julialimp)
 
 
