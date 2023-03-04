@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/julialimp/quest-html-e-css-avancado)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) - github pages
+- Solution URL: [Solution URL - Repository](https://github.com/julialimp/quest-html-e-css-avancado)
+- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
 
 ## My process
 
