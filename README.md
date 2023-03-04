@@ -56,8 +56,6 @@ I had some difficulty when choosing between the use of flexbox or grid in some s
 
 For my first challenge, I think I could achieve what I was expecting and I really liked the results.
 
-To see how you can add code snippets, see below:
-
 
 ### Continued development
 
