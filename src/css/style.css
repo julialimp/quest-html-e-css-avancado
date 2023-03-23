@@ -31,10 +31,6 @@ body {
     margin: 0 auto;
 }
 
-.container .mockups {
-    /* max-width: 715px; */
-}
-
 .container .mockups img {
     width: 100%;
 }
