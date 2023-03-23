@@ -1,10 +1,35 @@
-@media(max-width: 900px) {
+@media(max-width: 1200px) {
     .container .description {
         padding: 30px 25px;
     }
     
     .container .description h2 {
+        font-size: 32px;
+    }
+
+    .container .description button {
+        width: 150px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .container .description {
+        padding: 30px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container .description h2 {
         font-size: 25px;
+    }
+
+    .container .description p {
+        padding-right: 0;
     }
 
     .container .description button {
@@ -16,6 +41,7 @@
     body {
         background: url('../images/bg-mobile.svg') no-repeat #674bb1;
         padding: 40px;
+        background-size: cover;
     }
 
     .header img {
@@ -27,9 +53,15 @@
         flex-direction: column;
         text-align: center;
     }
+    
+    .container .mockups {
+        width: 80%;
+    }
 
     .container .description {
-        padding: 10px;
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .container .mockups img {

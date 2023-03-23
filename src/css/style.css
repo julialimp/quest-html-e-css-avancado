@@ -11,6 +11,7 @@ body {
                          "footer footer";
     grid-template-columns: 1fr 1fr;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .header {
@@ -24,11 +25,17 @@ body {
 
 .container {
     grid-area: container;
-    display: grid;
-    grid-template-columns: 50% 1fr;
+    display: flex;
+    justify-content: center;
+    min-height: 90%;
     align-items: center;
     max-width: 1920px;
-    margin: 0 auto;
+    width: 100%;
+}
+
+.container .mockups {
+    width: 50%;
+
 }
 
 .container .mockups img {
@@ -36,7 +43,9 @@ body {
 }
 
 .container .description {
-    padding: 45px 80px;
+    padding: 45px 0 45px 80px;
+    margin-bottom: 10%;
+    width: 45%;
     max-width: 800px;
 }
 
@@ -98,6 +107,3 @@ body {
     border: 1px solid var(--primary-soft);
     transition: .3s ease-in-out;
 }
-
-
-
